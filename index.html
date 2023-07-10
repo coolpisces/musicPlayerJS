@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+
+</head>
+
+<body>
+
+    <div class="mainDiv">
+        <div class="imgDiv">
+            <img src="img/50cent.jpg" alt="50cent">
+        </div>
+        <div class="titleDiv">
+            <h2 class="title" id="title">Music Player with JS</h2>
+        </div>
+        <audio src="music/50cent.mp3"></audio>
+        <div class="progressDiv" id="progressDiv">
+            <div class="progress" id="progress"></div>
+            <div class="timeDiv">
+                <span id="currentTime">0:00</span>
+                <span id="totalTime">2:30</span>
+            </div>
+        </div>
+        <div class="musicControlDiv">
+            <i class="icon fa-sharp fa-solid fa-backward" id="prev"></i>
+            <i class="icon fa-solid fa-play" id="play"></i>
+            <i class="icon fa-sharp fa-solid fa-forward" id="next"></i>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/2ed001a2f5.js" crossorigin="anonymous"></script>
+    <script src="myScript.js"></script>
+</body>
+
+</html>
